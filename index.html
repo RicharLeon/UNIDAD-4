@@ -1,0 +1,168 @@
+
+<!doctype html>
+<html>
+<head>
+      <!-- Metadata y Tailwind CSS implementación -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-[#075985] to-[#7dd3fc] text-white py-4 fixed w-full top-0 z-50">
+        <nav class="container mx-auto flex justify-center">
+            <ul class="flex space-x-6">
+                <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+                <li><a href="#cv1" class="hover:underline">Integrante 1</a></li>
+                <li><a href="#cv2" class="hover:underline">Integrante 2</a></li>
+                <li><a href="#cv3" class="hover:underline">Integrante 3</a></li>
+                <li><a href="#skills" class="hover:underline">Comparativa</a></li>
+                <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="py-96 bg-[#e0f2fe] text-center">
+        <h1 class="text-4xl font-medium text-[#0c4a6e]">Bienvenidos a :</h1>
+        <h1 class="text-4xl font-bold text-[#075985] mb-4">Sitio Abierto de Hojas de Vida</h1>
+        <p class="text-lg text-[#082f49]">Somos un equipo de profesionales listos para mostrar nuestras experiencias y habilidades a futuros empleadores.</p>
+    </section>
+
+    <!-- Sección de CV Integrante 1 -->
+    <section id="cv1" class="py-20 bg-[#bae6fd] text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-[#075985]">Integrante 1</h2>
+            <img src="utils/avatar1.jpeg" alt="Foto de Integrante 1" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-semibold">Datos Personales</h3>
+            <p>Nombre: Integrante 1</p>
+            <p>Contacto: email1@ejemplo.com</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Laborales</h3>
+            <p>Experiencia: Desarrollador Web en Empresa X</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Académicos</h3>
+            <p>Educación: Licenciatura en Ciencias de la Computación</p>
+            <h3 class="text-xl font-semibold mt-4">Habilidades</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+    </section>
+
+    <!-- Sección de CV Integrante 2 -->
+    <section id="cv2" class="py-20 bg-[#e0f2fe] text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-[#075985]">Integrante 2</h2>
+            <img src="utils/avatar2.jpeg" alt="Foto de Integrante 2" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-semibold">Datos Personales</h3>
+            <p>Nombre: Integrante 2</p>
+            <p>Contacto: email2@ejemplo.com</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Laborales</h3>
+            <p>Experiencia: Diseñador Gráfico en Empresa Y</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Académicos</h3>
+            <p>Educación: Licenciatura en Diseño Gráfico</p>
+            <h3 class="text-xl font-semibold mt-4">Habilidades</h3>
+            <p>Photoshop, Illustrator, UX/UI Design</p>
+        </div>
+    </section>
+
+    <!-- Sección de CV Integrante 3 -->
+    <section id="cv3" class="py-20 bg-[#bae6fd] text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-[#075985]">Integrante 3</h2>
+            <img src="utils/avatar3.jpeg" alt="Foto de Integrante 3" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h3 class="text-xl font-semibold">Datos Personales</h3>
+            <p>Nombre: Integrante 3</p>
+            <p>Contacto: email3@ejemplo.com</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Laborales</h3>
+            <p>Experiencia: Analista de Datos en Empresa Z</p>
+            <h3 class="text-xl font-semibold mt-4">Datos Académicos</h3>
+            <p>Educación: Licenciatura en Matemáticas</p>
+            <h3 class="text-xl font-semibold mt-4">Habilidades</h3>
+            <p>Python, SQL, Análisis de Datos</p>
+        </div>
+    </section>
+
+    <!-- Sección de Comparativa de Habilidades -->
+    <section id="skills" class="py-20 bg-[#e0f2fe] text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-[#075985]">Comparativa de Habilidades</h2>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-white border border-gray-300">
+                    <thead>
+                        <tr>
+                            <th class="py-2 px-4 border-b">Nombre</th>
+                            <th class="py-2 px-4 border-b">Habilidades</th>
+                            <th class="py-2 px-4 border-b">Ejemplo de Rol</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 px-4 border-b">Integrante 1</td>
+                            <td class="py-2 px-4 border-b">
+                                <span class="bg-[#0284c7] text-white py-1 px-2 rounded-full text-xs">HTML</span>
+                                <span class="bg-[#0284c7] text-white py-1 px-2 rounded-full text-xs">CSS</span>
+                                <span class="bg-[#0284c7] text-white py-1 px-2 rounded-full text-xs">JavaScript</span>
+                            </td>
+                            <td class="py-2 px-4 border-b">Desarrollador Frontend</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">Integrante 2</td>
+                            <td class="py-2 px-4 border-b">
+                                <span class="bg-[#0ea5e9] text-white py-1 px-2 rounded-full text-xs">Photoshop</span>
+                                <span class="bg-[#0ea5e9] text-white py-1 px-2 rounded-full text-xs">Illustrator</span>
+                                <span class="bg-[#0ea5e9] text-white py-1 px-2 rounded-full text-xs">UX/UI Design</span>
+                            </td>
+                            <td class="py-2 px-4 border-b">Diseñador Gráfico</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 border-b">Integrante 3</td>
+                            <td class="py-2 px-4 border-b">
+                                <span class="bg-[#34d399] text-white py-1 px-2 rounded-full text-xs">Python</span>
+                                <span class="bg-[#34d399] text-white py-1 px-2 rounded-full text-xs">SQL</span>
+                                <span class="bg-[#34d399] text-white py-1 px-2 rounded-full text-xs">Análisis de Datos</span>
+                            </td>
+                            <td class="py-2 px-4 border-b">Analista de Datos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="py-20 bg-[#bae6fd] text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-[#075985]">Contacto</h2>
+            <form action="" method="post" class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label for="nombre" class="block text-left mb-2 font-medium">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left mb-2 font-medium">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-lg">
+                </div>
+                <div class="mb-4">
+                    <label for="countries" class="block text-left mb-2 font-medium ">Integrante Interesado:</label>
+                    <select id="countries" class="w-full p-2 border border-gray-300 rounded-lg">
+                      <option class="text-black-400/0" selected>Integrantes..</option>
+                      <option value="Integrante 1">Integrante 1</option>
+                      <option value="Integrante 2">Integrante 2</option>
+                      <option value="Integrante 3">Integrante 3</option>
+                      <option value="Todos">Todos</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="mensaje" class="block text-left mb-2 font-medium">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required class="w-full p-2 rounded-lg border-gray-300 rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-[#7dd3fc] to-[#075985] text-white text-center py-4">
+        <p>&copy; 2024 Richar Daniel Diaz León</p>
+    </footer>
+</body>
+</html>
